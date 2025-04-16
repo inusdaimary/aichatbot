@@ -32,3 +32,23 @@ Before starting, make sure you have the following installed:
    npm install
    npm run dev
 
+
+🔑 Creating a Hugging Face API Key
+If your project uses Hugging Face APIs (e.g., for AI/ML tasks), you’ll need an API key:
+
+Go to https://huggingface.co/
+
+Log in or create an account.
+
+Click on your profile picture → Settings → Access Tokens
+
+Click New token → Give it a name → Select Read or Write as needed
+
+Copy the generated API key and save it securely.
+
+Create a .env file in your backend and store your key like this:
+
+
+
+HUGGINGFACE_API_KEY=your_api_key_here
+
